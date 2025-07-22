@@ -1,0 +1,6 @@
+# sensitive files to exclude from GitHub
+conversations.json
+.env
+chat_history.xlsx
+__pycache__/
+*.pyc
