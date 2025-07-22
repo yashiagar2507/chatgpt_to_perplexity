@@ -31,19 +31,21 @@ Download the .zip from your email
 Extract conversations.json and put it in this folder
 
 2. Convert your chats to Excel
-``` python extract_chats_to_excel.py```
+```
+python extract_chats_to_excel.py
+```
 This creates chat_history.xlsx with all your titles and conversations.
 
-3. Choose which chat to send
+4. Choose which chat to send
 Open chat_history.xlsx
 Find the row number of the chat you want
 
-4. Set your row in the script
+5. Set your row in the script
 Edit send_selected_chat_to_perplexity.py:
 
-5. Run the script
+6. Run the script
 ```
-python send_selected_chat_to_perplexity.py \
+python send_selected_chat_to_perplexity.py 
 ```
 The script will:
 Open Perplexity in Chrome
